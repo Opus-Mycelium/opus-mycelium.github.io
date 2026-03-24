@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "JetBrains Mono", // Fonte de código para títulos fica muito "tech"
+        body: "Inter",           // Leitura limpa para as hifas
+        code: "JetBrains Mono",  // A clássica do seu terminal
       },
       colors: {
         lightMode: {
@@ -34,21 +34,21 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#6d28d9", // Roxo NERV
+          tertiary: "#f59e0b",  // Âmbar de Alerta
+          highlight: "rgba(109, 40, 217, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0d0211",      // Fundo quase preto (vibe Terminal)
+          lightgray: "#261431",  // Bordas e fundos secundários roxos
+          gray: "#8b5cf6",       // Texto de suporte (Roxo claro)
+          darkgray: "#e2e8f0",   // Texto principal (quase branco)
+          dark: "#fbbf24",       // Títulos e destaques fortes (Dourado/Âmbar)
+          secondary: "#a78bfa",  // Links e interatividade (Violeta elétrico)
+          tertiary: "#f472b6",   // Detalhes (Rosa choque/Evangelion 08)
+          highlight: "rgba(139, 92, 246, 0.2)", // Realce de seleção
+          textHighlight: "#6d28d988",
         },
       },
     },
