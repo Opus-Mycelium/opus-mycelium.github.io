@@ -8,7 +8,9 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+    <a href={baseDir}>
+      <img src='/mnt/BALTHASAR/Academia/Opus Mycelium/img/Opus Mycelium.png' alt={title} style={{height: "50px", width: "auto"}} />
+    </a>
     </h2>
   )
 }
