@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "JetBrains Mono", // Fonte de código para títulos fica muito "tech"
+        header: "JetBrains Mono", // Fonte de código para títulos fica muito "tech" | Are dreams artificial?
         body: "Inter",           // Leitura limpa para as hifas
-        code: "JetBrains Mono",  // A clássica do seu terminal
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -44,9 +44,9 @@ const config: QuartzConfig = {
           lightgray: "#261431",  // Bordas e fundos secundários roxos
           gray: "#8b5cf6",       // Texto de suporte (Roxo claro)
           darkgray: "#e2e8f0",   // Texto principal (quase branco)
-          dark: "#fbbf24",       // Títulos e destaques fortes (Dourado/Âmbar)
+          dark: "#f472b6",       // Detalhes (Rosa choque/Evangelion 08)
           secondary: "#a78bfa",  // Links e interatividade (Violeta elétrico)
-          tertiary: "#f472b6",   // Detalhes (Rosa choque/Evangelion 08)
+          tertiary: "#fbbf24",   // Títulos e destaques fortes (Dourado/Âmbar)
           highlight: "rgba(139, 92, 246, 0.2)", // Realce de seleção
           textHighlight: "#6d28d988",
         },
