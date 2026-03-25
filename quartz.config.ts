@@ -41,13 +41,13 @@ const config: QuartzConfig = {
         },
         darkMode: {
           light: "#0d0211",      // Fundo quase preto (vibe Terminal)
-          lightgray: "#8FCDD4",  // Bordas e fundos secundários roxos
-          gray: "#8FCDD4",       // Texto de suporte (Roxo claro)
+          lightgray: "#261431",  // Bordas e fundos secundários roxos
+          gray: "#8b5cf6",       // Texto de suporte (Roxo claro)
           darkgray: "#e2e8f0",   // Texto principal (quase branco)
-          dark: "#E0948C",       // Detalhes (Rosa choque/Evangelion 08)
-          secondary: "#8FCDD4",  // Links e interatividade (Violeta elétrico)
-          tertiary: "#FFAC7F",   // Títulos e destaques fortes (Dourado/Âmbar)
-          highlight: "8FCDD4", // Realce de seleção
+          dark: "#f472b6",       // Detalhes (Rosa choque/Evangelion 08)
+          secondary: "#a78bfa",  // Links e interatividade (Violeta elétrico)
+          tertiary: "#fbbf24",   // Títulos e destaques fortes (Dourado/Âmbar)
+          highlight: "rgba(139, 92, 246, 0.2)", // Realce de seleção
           textHighlight: "#6d28d988",
         },
       },
